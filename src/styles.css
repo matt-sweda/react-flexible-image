@@ -1,0 +1,7 @@
+.react-responsive-image-container {
+    overflow: hidden;
+}
+
+.react-responsive-image-content {
+    position: relative;
+}

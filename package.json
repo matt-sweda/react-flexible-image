@@ -1,0 +1,32 @@
+{
+    "name": "react-flexible-image",
+    "version": "0.0.1",
+    "description": "A react component resizes and pans an image to always fit within the specified bounds.",
+    "main": "build/index.js",
+    "peerDependencies": {
+        "react": "^15.5.4"
+    },
+    "dependencies": {
+        "react": "^15.5.4",
+        "webpack": "^2.6.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "author": {
+        "name": "Matt Sweda",
+        "email": "msweda.developer@gmail.com"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^7.0.0",
+        "babel-plugin-transform-object-rest-spread": "^6.23.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.5.1",
+        "css-loader": "0.28.7",
+        "style-loader": "0.19.0"
+    }
+}
