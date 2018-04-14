@@ -2,11 +2,14 @@
 A react component that resizes and pans an image to always fit within the specified bounds.
 
 Installation:
+```
 npm install react-flexible-image
+```
 
 
 
 Usage:
+```
 import React from 'react';
 import ResponsiveImage from 'react-flexible-image';
 
@@ -30,6 +33,7 @@ const Example = (props) => (
 );
 
 export default Example;
+```
 
 
 
