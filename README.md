@@ -34,15 +34,15 @@ export default Example;
 
 
 Props: [optional]
-id: The id of the element's tag. This must be specified.
-[className]: An optional and additional class to add to the element, if you want any additional styling.
-src: A filepath or url to the image file.
-alt: The text to display if there is no image found at the src path.
-imageWidth: The width in pixels of the original image.
-imageHeight: The height in pixels of the original image.
-[maxWidth]: The widest the image can become on the page.
-[maxHeight]: The tallest the image can become on the page.
-[minWidth]: The narrowest the image can become on the page.
-[minHeight]: The shortest the image can become on the page.
-[anchorX]: Specifies the X coordinate on the original image that should always appear within the bounds.
-[anchorY]: Spefifies the Y coordinate on the original image that should always appear within the bounds.
+* id: The id of the element's tag. This must be specified.
+* [className]: An optional and additional class to add to the element, if you want any additional styling.
+* src: A filepath or url to the image file.
+* alt: The text to display if there is no image found at the src path.
+* imageWidth: The width in pixels of the original image.
+* imageHeight: The height in pixels of the original image.
+* [maxWidth]: The widest the image can become on the page.
+* [maxHeight]: The tallest the image can become on the page.
+* [minWidth]: The narrowest the image can become on the page.
+* [minHeight]: The shortest the image can become on the page.
+* [anchorX]: Specifies the X coordinate on the original image that should always appear within the bounds.
+* [anchorY]: Spefifies the Y coordinate on the original image that should always appear within the bounds.
