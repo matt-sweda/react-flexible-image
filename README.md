@@ -1,14 +1,12 @@
 # react-flexible-image
 A react component that resizes and pans an image to always fit within the specified bounds.
 
-Installation:
+## Installation:
 ```
 npm install react-flexible-image
 ```
 
-
-
-Usage:
+## Usage:
 ```
 import React from 'react';
 import ResponsiveImage from 'react-flexible-image';
@@ -35,9 +33,7 @@ const Example = (props) => (
 export default Example;
 ```
 
-
-
-Props: [optional]
+## Props: [optional]
 * id: The id of the element's tag. This must be specified.
 * [className]: An optional and additional class to add to the element, if you want any additional styling.
 * src: A filepath or url to the image file.
