@@ -1,6 +1,6 @@
 {
     "name": "react-flexible-image",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "description": "A react component resizes and pans an image to always fit within the specified bounds.",
     "main": "build/index.js",
     "peerDependencies": {

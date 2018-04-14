@@ -9,11 +9,11 @@ npm install react-flexible-image
 ## Usage:
 ```
 import React from 'react';
-import ResponsiveImage from 'react-flexible-image';
+import FlexibleImage from 'react-flexible-image';
 
 const Example = (props) => (
     <div className={'example'}>
-        <ResponsiveImage
+        <FlexibleImage
             id={'flexible-image-1'}
             className={'flexible-image'}
             src={'../img/example.jpg'}

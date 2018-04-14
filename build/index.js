@@ -141,13 +141,13 @@ function s() {
     }).join(' ');
 }
 
-var ResponsiveImage = function (_React$Component) {
-    _inherits(ResponsiveImage, _React$Component);
+var FlexibleImage = function (_React$Component) {
+    _inherits(FlexibleImage, _React$Component);
 
-    function ResponsiveImage(props) {
-        _classCallCheck(this, ResponsiveImage);
+    function FlexibleImage(props) {
+        _classCallCheck(this, FlexibleImage);
 
-        var _this = _possibleConstructorReturn(this, (ResponsiveImage.__proto__ || Object.getPrototypeOf(ResponsiveImage)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (FlexibleImage.__proto__ || Object.getPrototypeOf(FlexibleImage)).call(this, props));
 
         _this.state = {
             containerWidth: 0,
@@ -157,7 +157,7 @@ var ResponsiveImage = function (_React$Component) {
         return _this;
     }
 
-    _createClass(ResponsiveImage, [{
+    _createClass(FlexibleImage, [{
         key: 'componentDidMount',
         value: function componentDidMount() {
             this.updateContainerDimensions();
@@ -306,14 +306,14 @@ var ResponsiveImage = function (_React$Component) {
                 'div',
                 {
                     id: id,
-                    className: s('react-responsive-image-container', className),
+                    className: s('react-flexible-image-container', className),
                     maxwidth: maxWidth ? maxWidth : 'none',
                     maxheight: maxHeight ? maxHeight : 'none',
                     minwidth: minWidth ? minWidth : 'none',
                     minheight: minHeight ? minHeight : 'none'
                 },
                 _react2.default.createElement('img', {
-                    className: 'react-responsive-image-content',
+                    className: 'react-flexible-image-content',
                     src: src, alt: alt ? alt : 'Image',
                     width: resizedWidth, height: resizedHeight,
                     style: {
@@ -325,7 +325,7 @@ var ResponsiveImage = function (_React$Component) {
         }
     }]);
 
-    return ResponsiveImage;
+    return FlexibleImage;
 }(_react2.default.Component);
 
 exports.default = ResponsiveImage;
@@ -339,7 +339,7 @@ exports = module.exports = __webpack_require__(4)(undefined);
 
 
 // module
-exports.push([module.i, ".react-responsive-image-container {\n    overflow: hidden;\n}\n\n.react-responsive-image-content {\n    position: relative;\n}", ""]);
+exports.push([module.i, ".react-flexible-image-container {\n    overflow: hidden;\n}\n\n.react-flexible-image-content {\n    position: relative;\n}", ""]);
 
 // exports
 

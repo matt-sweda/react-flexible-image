@@ -5,7 +5,7 @@ function s(...classes) {
     return classes.filter(c => c !== undefined).join(' ');
 }
 
-class ResponsiveImage extends React.Component {
+class FlexibleImage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -141,14 +141,14 @@ class ResponsiveImage extends React.Component {
         return (
             <div
                 id={id}
-                className={s('react-responsive-image-container', className)}
+                className={s('react-flexible-image-container', className)}
                 maxwidth={maxWidth ? maxWidth : 'none'}
                 maxheight={maxHeight ? maxHeight : 'none'}
                 minwidth={minWidth ? minWidth : 'none'}
                 minheight={minHeight ? minHeight : 'none'}
             >
                 <img 
-                    className={'react-responsive-image-content'}
+                    className={'react-flexible-image-content'}
                     src={src} alt={alt ? alt : 'Image'}
                     width={resizedWidth} height={resizedHeight}
                     style={{
